@@ -1,4 +1,6 @@
 /* body {background-color: black;}; */
+@import url('https://fonts.googleapis.com/css?family=Oxygen');
+@import url('https://fonts.googleapis.com/css?family=Cormorant+Unicase');
 img {
     width: 100%;
     height: auto;
@@ -7,8 +9,8 @@ img {
 }
 
 h1 {
-    background-color:white;
-    color:black;
+    background-color: white;
+    color: black;
     font-family: Georgia, 'Times New Roman', Times, serif;
     text-align: center;
     padding: 0px;
@@ -28,23 +30,29 @@ h2 {
     text-shadow: 2px 2px white;
 }
 
-h3 {
-    font-family:Arial, Helvetica, sans-serif;
+h3 {font-family: 'Oxygen', sans-serif;
+
 }
 
 p {
-    font-family: 'Times New Roman', Times, serif;
+    font-family: 'Oxygen', sans-serif;
+
     background-color: black;
     color: white;
     padding: 1%;
     border: thin;
     border-style: groove;
     border-color: white;
-    font-size: 24px;
+    font-size: 20px;
     margin-block-end: 2px;
     text-align: center;
 }
-
+#clientsTag{
+    font-size: 48px; letter-spacing: 2em;
+}
+#contactText{
+    text-align: center; font-weight: bold; font-size: 48px;
+}
 #Who {
     float: left;
     font-family: Arial, Helvetica, sans-serif;
@@ -81,6 +89,36 @@ p {
     border: 2px black;
 }
 
+.card{
+    width: 100%;
+}
+
+#offerings{
+    width:90%;
+}
+#content {
+    width: 16rem;
+}
+
+#concept {
+    width: 16rem;
+}
+
+#branding {
+    width: 16rem;
+}
+
+#silver {
+    width: 16rem;
+}
+
+#gold {
+    width: 16rem;
+}
+
+#platinum {
+    width: 16rem;
+}
 #white {
     width: 66%;
     float: right;
@@ -103,15 +141,91 @@ p {
     box-shadow: 2px 2px black;
 }
 
-.jumbotron{
-    background-color: white; color: black;
+.jumbotron {
+    background-color: white;
+    color: black;
 }
-@media screen and (max-width:980px) {
-    h1{ border:10px; font-size:50px;width: 100%;background-color: black;color: white;}
-    body {width:100%; background-color:black; color: white}
-#Who{width: 100%}
-#Services{width: 100%}
-#Portfolio{width: 100%}
-#Contact{width: 100%;}
 
+#goDaddy {
+    right: 0;
+}
+
+
+@media screen and (max-width:980px) {
+    h1 {
+        border: 10px;
+        font-size: 50px;
+        width: 100%;
+        background-color: black;
+        color: white;
+    }
+
+    body {
+        width: 100%;
+        background-color: black;
+        color: white
+    }
+
+    #Who {
+        width: 100%;
+        text-align: center;
+    }
+
+    #Services {
+        width: 100%;
+        text-align: center;
+    }
+
+    #Portfolio {
+        width: 100%;
+        text-align: center;
+    }
+
+    #Contact {
+        width: 100%;
+        text-align: center;
+    }
+
+    .textCards {
+        width: 100%;
+        padding: 5px;
+        margin: 5px;
+    }
+
+}
+
+#content {
+    width: 400px;
+   
+    margin: 10px;
+}
+
+#concept {
+    width: 400px;
+   
+    margin: 10px;
+}
+
+#branding {
+    width: 400px;
+   
+    margin: 10px;
+}
+
+#silver {
+    width: 400px;
+   
+    margin: 10px;
+}
+
+#gold {
+    width: 400px;
+   
+    margin: 10px;
+}
+
+#platinum {
+    width: 400px;
+   
+    margin: 10px;
 }
